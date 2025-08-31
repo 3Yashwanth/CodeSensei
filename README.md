@@ -1,112 +1,10 @@
-**CodeSensei - AI-Powered Coding Mentor & Talent Hub**
+**PROJECT TITLE**
+CodeSensei - AI-Powered Coding Mentor & Talent Hub
+
+**Overview**
 A revolutionary platform that bridges the gap between aspiring developers and tech companies through AI-powered code analysis, personalized learning paths, and intelligent talent matching.
 
-🚀 **Features**
-For Students:
-
-🤖 AI-powered code analysis with detailed feedback
-
-🎯 Personalized DSA learning roadmaps
-
-💬 Live AI chatbot support for instant doubt resolution
-
-📞 Voice call functionality for interactive learning
-
-📊 Progress tracking and performance analytics
-
-📚 Curated learning resources from top YouTube channels
-
-🏆 Skill ranking and achievement system
-
-**For Companies/HRs:**
-
-👥 Talent discovery portal with advanced filtering
-
-🔍 Search candidates by skills, scores, and universities
-
-📈 Comprehensive candidate analytics and code assessment
-
-⭐ Shortlisting and candidate management system
-
-🎯 Smart matching based on company requirements
-
-**Browser Extension:**
-
-🌐 Integrates with LeetCode, HackerRank, and other coding platforms
-
-⚡ One-click code analysis from any coding platform
-
-🔄 Syncs with main platform for continuous learning tracking
-
-🛠️ **Tech Stack
-Frontend:**
-
-React 18 with TypeScript
-
-Tailwind CSS for styling
-
-React Query for state management
-
-Wouter for routing
-
-Lucide React for icons
-
-**Backend:**
-
-Node.js with Express
-
-PostgreSQL with Drizzle ORM
-
-JWT authentication
-
-AI code analysis algorithms
-
-Browser Extension:
-
-Chrome Extension Manifest V3
-
-Content Scripts for platform integration
-
-Modern CSS with animations
-
-**APIs & Services:**
-
-RESTful API architecture
-
-ElevenLabs voice AI integration
-
-YouTube Data API for resources
-
-Custom AI analysis endpoints
-
-📂 **Project Structure**
-text
-codesensei/
-├── client/                 # React frontend application
-│   ├── src/
-│   │   ├── components/     # Reusable UI components
-│   │   ├── pages/         # Page components
-│   │   ├── hooks/         # Custom React hooks
-│   │   ├── lib/           # Utility libraries
-│   │   └── types/         # TypeScript definitions
-│   ├── public/            # Static assets
-│   └── package.json
-├── server/                # Node.js backend API
-│   ├── src/
-│   │   ├── routes/        # API routes
-│   │   ├── models/        # Database models
-│   │   ├── middleware/    # Custom middleware
-│   │   └── utils/         # Utility functions
-│   ├── shared/            # Shared schema definitions
-│   └── package.json
-├── extension/             # Chrome extension
-│   ├── content.js         # Content scripts
-│   ├── background.js      # Background service worker
-│   ├── manifest.json      # Extension manifest
-│   ├── styles/            # CSS styles
-│   └── icons/             # Extension icons
-└── README.md
-⚙️ **Installation & Setup
+**Installation & Setup
 Prerequisites**
 Node.js 18.0 or higher
 
@@ -175,13 +73,59 @@ bash
 # Build the extension (from extension directory)
 npm run build
 
-# Load in Chrome:
-# 1. Open chrome://extensions/
-# 2. Enable "Developer mode"
-# 3. Click "Load unpacked" and select the extension directory
-# 4. The extension will work on LeetCode, HackerRank, etc.
-📖 Usage
-For Students:
+📂 **Project Structure**
+text
+codesensei/
+├── client/                 # React frontend application
+│   ├── src/
+│   │   ├── components/     # Reusable UI components
+│   │   ├── pages/         # Page components
+│   │   ├── hooks/         # Custom React hooks
+│   │   ├── lib/           # Utility libraries
+│   │   └── types/         # TypeScript definitions
+│   ├── public/            # Static assets
+│   └── package.json
+├── server/                # Node.js backend API
+│   ├── src/
+│   │   ├── routes/        # API routes
+│   │   ├── models/        # Database models
+│   │   ├── middleware/    # Custom middleware
+│   │   └── utils/         # Utility functions
+│   ├── shared/            # Shared schema definitions
+│   └── package.json
+├── extension/             # Chrome extension
+│   ├── content.js         # Content scripts
+│   ├── background.js      # Background service worker
+│   ├── manifest.json      # Extension manifest
+│   ├── styles/            # CSS styles
+│   └── icons/             # Extension icons
+└── README.md
+
+🤖 **Model & Data**
+Primary Model: Open AI API - GPT-4 , Eleven labs.
+
+Source: Eleven Labs, open AI, Trilio
+
+License:  Apache 2.0 ✅
+
+Purpose: Code Analyzation
+
+Training/Example Data: Self data
+
+Note: Please check the specific license for any use restrictions.
+
+⚠️ **Known Limitations & Risks**
+Bias: This model may reflect biases present in its training data, potentially leading to [e.g., unfair outcomes for certain demographics].
+
+Scope: Performance may degrade on data that is highly different from the training corpus (e.g., different domains, languages, or formats).
+
+Accuracy: Current evaluation metrics show an F1-score of [X]%. It should not be used for high-stakes decision-making without further validation.
+
+Computational Requirements: Inference requires a GPU for optimal performance.
+
+
+📖 **Usage**
+**For Students:**
 Sign up as a student and complete your profile
 
 Solve problems in the integrated code editor
@@ -196,7 +140,7 @@ Track your progress through analytics dashboard
 
 Use the browser extension to analyze code on external platforms
 
-For Companies/HRs:
+**For Companies/HRs:**
 Register your company profile
 
 Access the Talent Hub to browse candidates
@@ -209,35 +153,9 @@ Shortlist candidates for recruitment
 
 Contact promising talent directly through the platform
 
-Browser Extension:
-Install the extension from Chrome Web Store
+👥 **Team & Contact**
+Name	Role	Contact
+Team Member 1 : Yashwanth Parichha   , Role: Full stack developer	, Github : https://github.com/3Yashwanth, Email : 90yashwanth@gmail.com
+Team Member 2 : Pranshu Dev   , Role: AI  Automation and LLM	, Github : https://github.com/TechAltruist, Email : pransai.verse@gmail.com
 
-Navigate to LeetCode/HackerRank
 
-Click "Analyze with CodeSensei" in the editor toolbar
-
-View instant feedback without leaving the platform
-
-Sync results with your main CodeSensei account
-
-🧪 Tests
-bash
-# Run backend tests
-cd server
-npm test
-
-# Run frontend tests  
-cd client
-npm test
-
-# Run end-to-end tests (if configured)
-npm run test:e2e
-📸 Screenshots
-https://via.placeholder.com/800x400/6366f1/ffffff?text=Student+Dashboard
-Student dashboard with code analysis and learning roadmap
-
-https://via.placeholder.com/800x400/8b5cf6/ffffff?text=Talent+Hub+Portal
-HR talent hub with candidate filtering and analytics
-
-https://via.placeholder.com/800x400/10b981/ffffff?text=AI+Code+Analysis
-Detailed code analysis with suggestions and scoring
