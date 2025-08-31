@@ -1,6 +1,6 @@
 **PROJECT TITLE :**
 
-**CodeSensei - AI-Powered Coding Mentor & Talent Hub**   ## This is H2             
+**CodeSensei - AI-Powered Coding Mentor & Talent Hub**           
 
 Deployed live link: https://codesensei-vxwy.onrender.com/ (In desktop)
 
