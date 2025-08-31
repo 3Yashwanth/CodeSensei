@@ -1,5 +1,5 @@
-**PROJECT TITLE**
-CodeSensei - AI-Powered Coding Mentor & Talent Hub
+**PROJECT TITLE :**
+**CodeSensei - AI-Powered Coding Mentor & Talent Hub**
 
 **Overview**
 A revolutionary platform that bridges the gap between aspiring developers and tech companies through AI-powered code analysis, personalized learning paths, and intelligent talent matching.
