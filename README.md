@@ -1,5 +1,5 @@
 **PROJECT TITLE :**
-**CodeSensei - AI-Powered Coding Mentor & Talent Hub**
+**CodeSensei - AI-Powered Coding Mentor & Talent Hub**                  Deployed live link: https://codesensei-vxwy.onrender.com/ (In desktop)
 
 **Overview**
 A revolutionary platform that bridges the gap between aspiring developers and tech companies through AI-powered code analysis, personalized learning paths, and intelligent talent matching.
