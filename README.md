@@ -54,14 +54,12 @@ env
 DATABASE_URL=postgresql://username:password@localhost:5432/codesensei_db
 JWT_SECRET=your_super_secret_jwt_key_here
 NODE_ENV=development
-PORT=3001
-CLIENT_URL=http://localhost:3000
 ELEVENLABS_API_KEY=your_elevenlabs_api_key
 client/.env:
 
 env
-VITE_API_URL=http://localhost:3001
-VITE_APP_NAME=CodeSensei
+VITE_API_URL=insert your api key
+VITE_APP_NAME=CodeSenei
 5. Run the application
 bash
 # Start backend server (from server directory)
@@ -70,7 +68,7 @@ npm run dev
 # Start frontend client (from client directory)  
 npm run dev
 
-# The application will be available at http://localhost:3000
+# The application will be available at your local host
 6. Load Browser Extension
 bash
 # Build the extension (from extension directory)
